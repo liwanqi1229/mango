@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+body,ul,li,p,h1,h2,h3,h4,h5,h6{ margin:0; padding:0}
+body{ font-size:12px; line-height:1.7em; color:#666;}
+ul{ list-style:none}
+img{ border:none}
+a{ text-decoration:none; color:#666;}
+a:hover{ text-decoration:underline;}
+.fl{ float:left}
+.fr{ float:right}
+.center{ width:1000px; margin:0 auto;}
+a:hover img {
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-ms-transition: all .2s linear;
+	transition: all .2s linear;
+}
+.clearfix:after{
+   content:".";/*加一段内容*/
+   display:block;/*让生成的元素以块级元素显示，占满剩余空间*/
+   height:0;/*避免生成的内容破坏原有布局高度*/
+   clear:both;/*清除浮动*/
+   visibility:hidden;/*让生成的内容不可见*/
+  }
+ .clearfix{zoom:1;/*为IE6，7的兼容性设置*/}
+
+ /* header */
+ header{width: 100%;position: relative;}
+ header #head{width: 100%;height:110px;position: relative;position: fixed;background: white;z-index:9;}
+ header .top1{width: 80px;height: 30px;position: absolute;left: 8px;top:20px;position: fixed;}
+ header .top1 a{font-size: 25px;font-weight: bold;color: black;}
+
+ header .top2{width:80%;height:30px;overflow: auto;position: absolute;left: 80px;top: 20px;position: fixed;}
+ header .top2 ul{width:230%;height:30px;}
+ header .top2 ul li{float: left;width: 110px;}
+ header .top2 ul li a{font-size: 18px;font-weight: bold;text-decoration: none;}
+ header .top2 ul li a:hover{font-size: 20px;font-weight: bold;color: #FB672E;}
+
+ header .top3{width:100%;height: 40px;position: absolute;left: 10px;top: 55px;position: fixed;}
+ header .top3 p img{width: 50px;height: 50px;}
+ header .top3 span{position: absolute;left: 55px;top: 20px;}
+ header .top3 span a{color: #E1B14F;font-size: 14px;}
+ header .top3 #open{width: 65px;height: 25px;border: 1px solid #E1B355;
+    background: #E1B355;border-radius: 10px;position: absolute;left: 197px;top: 16px;}
+ header .top3 #open a{color: white;font-size: 14px;margin-left: 5px; } 
+ header .top3 #search{position: absolute;left:320px;top:15px;  }
+ header .top3 #search img{width: 30px;height: 30px;}
+
+ header #banner #imgs{width: 100%;height: 240px;position: absolute;top:125px; }
+ header #banner #imgs img{display: none;}
+ header #banner #imgs img.on{display: block;width: 100%;height: 220px;}
+
+ header .top4{width: 90%;height: 50px;position: absolute;top: 360px;left: 30px;}
+ header .top4 ul{width: 100%;height: 50px;}
+ header .top4 ul li{width: 25%;height: 50px;float: left;}
+ header .top4 ul li img{width: 60px;height: 60px;}
+
+ header .top5{width: 88%;height: 30px;position: absolute;top: 430px;left:28px;}
+ header .top5 ul{width: 100%;height: 30px;}
+ header .top5 ul li{width: 25%;height: 30px;float: left;}
+ header .top5 ul li a{font-size: 13px;}
+
+ header #top6{width: 100%;height: 60px;background:#F7F7F7;position: absolute;top:470px; }
+ header #top6 ul li{display: none;}
+ header #top6 ul li.on{display: block;}
+ header #top6 p{width: 38px;height: 23px;background:#FE6000;border-radius: 5px;margin:20px 0 0 18px;}
+ header #top6 p a{color: white;margin-left: 7px;}
+ header #top6 span a{font-size: 14px;font-weight: bold;position: absolute;left: 70px;top: 22px; }
+
+ main{width: 100%;position: relative;z-index:1;}
+ main #main1{width: 90%;height: 30px;position: absolute;left:15px;top: 550px;}
+ main #main1 p a{font-size: 18px;font-weight: bold;color: black;}
+
+ main #main2{width: 48%;position: absolute;top: 590px;}
+ main #main2 p img{width: 100%;height: 120px;}
+ main #main2 ul{width: 100%;line-height: 30px;position: absolute;left: 6px;}
+ main #main2 ul li:nth-of-type(1) a{font-size: 17px;font-weight: bold;color: black;}
+ main #main2 ul li:nth-of-type(2) a{font-size: 15px;font-weight: bold;}
+
+ main #main3{width: 48%;position: absolute;top: 590px;left: 50%;}
+ main #main3 p img{width: 100%;height: 120px;}
+ main #main3 ul{width: 100%;line-height: 30px;position: absolute;left: 6px;}
+ main #main3 ul li:nth-of-type(1) a{font-size: 17px;font-weight: bold;color: black;}
+ main #main3 ul li:nth-of-type(2) a{font-size: 15px;font-weight: bold;}
+
+ main #main4{width: 48%;position: absolute;top: 790px;}
+ main #main4 p img{width: 100%;height: 120px;}
+ main #main4 ul{width: 100%;line-height: 30px;position: absolute;left: 6px;}
+ main #main4 ul li:nth-of-type(1) a{font-size: 17px;font-weight: bold;color: black;}
+ main #main4 ul li:nth-of-type(2) a{font-size: 15px;font-weight: bold;}
+
+ main #main5{width: 48%;position: absolute;top: 790px;left: 50%;}
+ main #main5 p img{width: 100%;height: 120px;}
+ main #main5 ul{width: 100%;line-height: 30px;position: absolute;left: 6px;}
+ main #main5 ul li:nth-of-type(1) a{font-size: 17px;font-weight: bold;color: black;}
+ main #main5 ul li:nth-of-type(2) a{font-size: 15px;font-weight: bold;}
+
+ main #main6{width: 90%;height: 30px;position: absolute;left:15px;top: 1000px;}
+ main #main6 p a{font-size: 18px;font-weight: bold;color: black;}
+
+ main #main7{width: 48%;position: absolute;top: 1040px;}
+ main #main7 p img{width: 100%;height: 120px;}
+ main #main7 ul{width: 100%;line-height: 30px;position: absolute;left: 6px;}
+ main #main7 ul li:nth-of-type(1) a{font-size: 17px;font-weight: bold;color: black;}
+ main #main7 ul li:nth-of-type(2) a{font-size: 15px;font-weight: bold;}
+
+ main #main8{width: 48%;position: absolute;top: 1040px;left: 50%;}
+ main #main8 p img{width: 100%;height: 120px;}
+ main #main8 ul{width: 100%;line-height: 30px;position: absolute;left: 6px;}
+ main #main8 ul li:nth-of-type(1) a{font-size: 17px;font-weight: bold;color: black;}
+ main #main8 ul li:nth-of-type(2) a{font-size: 15px;font-weight: bold;}
+
+ main #main9{width: 48%;position: absolute;top: 1240px;}
+ main #main9 p img{width: 100%;height: 120px;}
+ main #main9 ul{width: 100%;line-height: 30px;position: absolute;left: 6px;}
+ main #main9 ul li:nth-of-type(1) a{font-size: 17px;font-weight: bold;color: black;}
+ main #main9 ul li:nth-of-type(2) a{font-size: 15px;font-weight: bold;}
+
+ main #main10{width: 48%;position: absolute;top: 1240px;left: 50%;}
+ main #main10 p img{width: 100%;height: 120px;}
+ main #main10 ul{width: 100%;line-height: 30px;position: absolute;left: 6px;}
+ main #main10 ul li:nth-of-type(1) a{font-size: 17px;font-weight: bold;color: black;}
+ main #main10 ul li:nth-of-type(2) a{font-size: 15px;font-weight: bold;}
+
+ main #main11{width: 90%;height: 30px;position: absolute;left:15px;top: 1450px;}
+ main #main11 p a{font-size: 18px;font-weight: bold;color: black;}
+
+ main #main12{width: 32%;position: absolute;top:1490px;}
+ main #main12 p img{width: 100%;height: 190px;}
+ main #main12 ul{width: 100%;line-height: 30px;position: absolute;left: 6px;}
+ main #main12 ul li:nth-of-type(1) a{font-size: 17px;font-weight: bold;color: black;}
+ main #main12 ul li:nth-of-type(2) a{font-size: 15px;font-weight: bold;}
+
+ main #main13{width: 32%;position: absolute;top: 1490px;left:33%;}
+ main #main13 p img{width: 100%;height: 190px;}
+ main #main13 ul{width: 100%;line-height: 30px;position: absolute;left: 6px;}
+ main #main13 ul li:nth-of-type(1) a{font-size: 17px;font-weight: bold;color: black;}
+ main #main13 ul li:nth-of-type(2) a{font-size: 15px;font-weight: bold;}
+
+ main #main14{width: 32%;position: absolute;top: 1490px;left:66%;margin-bottom: 140px;}
+ main #main14 p img{width: 100%;height: 190px;}
+ main #main14 ul{width: 100%;line-height: 30px;position: absolute;left: 6px;}
+ main #main14 ul li:nth-of-type(1) a{font-size: 17px;font-weight: bold;color: black;}
+ main #main14 ul li:nth-of-type(2) a{font-size: 15px;font-weight: bold;}
+
+
+
+/*footer*/
+footer{width: 100%;position: fixed;bottom: -1px;background: white;z-index:9;}
+footer ul{width: 100%;height: 60px;padding-left: 10px;}
+footer ul li{width: 20%;height: 50px;float: left;padding-top: 5px;}
+footer ul li img{width: 40px;height: 50px;}
+footer ul li:nth-of-type(3){position: absolute;top: -25px;left: 160px;}
+footer ul li:nth-of-type(3) img{width: 45px;height: 80px;}
+footer ul li:nth-of-type(4){position: absolute;top: 0px;left: 240px;}
+footer ul li:nth-of-type(5){position: absolute;top: 0px;left: 320px;}
+
+@media(max-width:350px){
+    header .top2{width:90%;height:30px;overflow: auto;position: absolute;left: 80px;top: 20px;position: fixed;}
+    header .top5{width: 95%;height: 30px;position: absolute;top: 430px;left:24px;}
+    header .top5 ul li a{font-size: 9px;}
+    header #top6 span a{font-size: 11px;font-weight: bold;position: absolute;left: 70px;top: 22px; }
+    footer ul li:nth-of-type(3) img{width: 45px;height: 80px;}
+    footer ul li:nth-of-type(3){position: absolute;top: -25px;left: 140px;}
+    footer ul li:nth-of-type(4){position: absolute;top: 0px;left: 200px;}
+    footer ul li:nth-of-type(5){position: absolute;top: 0px;left: 260px;}
+
+}
