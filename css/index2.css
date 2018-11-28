@@ -34,6 +34,7 @@ a:hover img {
 
  header .top2{width:80%;height:30px;overflow: auto;position: absolute;left: 80px;top: 20px;position: fixed;}
  header .top2 ul{width:230%;height:30px;}
+ header .top2::-webkit-scrollbar{display: none;}
  header .top2 ul li{float: left;width: 110px;}
  header .top2 ul li a{font-size: 18px;font-weight: bold;text-decoration: none;}
  header .top2 ul li a:hover{font-size: 20px;font-weight: bold;color: #FB672E;}
